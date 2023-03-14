@@ -1,0 +1,253 @@
+body{
+  height: 100%;
+  
+}
+.sidebar{
+    width: 275px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    /* background-color: red; */
+    background-image: url("../img/sidenavback.jpg");
+
+    z-index: 2;
+  }
+  .sidebar-brand{
+    height: 270px;
+    padding: 1rem 0rem 1rem 2rem;
+    color: #fff;
+  }
+  
+  .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .sidebar .profile img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .sidebar .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar .profile p{
+    color: rgb(206, 240, 253);
+    font-size: 14px;
+  }
+  
+  .sidebar-brand span{
+    display: inline;
+    padding-right: 1rems;
+  }
+  .sidebar-menu ul{
+    padding-left: 0rem;
+  }
+  .sidebar-menu li{
+    width: 100%;
+    margin-bottom: 1.7rem;
+    padding-left: 1rem;
+  }
+  .sidebar-menu a{
+    padding: 16px 1rem;
+    display: block;
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  .sidebar-menu a.active{
+    background: #fff;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    color: red;
+    border-radius: 30px 0 0 30px;
+  }
+  .sidebar-menu a span:first-child{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+  }
+  .sidebar-menu a:hover{
+    background: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: red;
+    border-radius: 30px 0 0 30px;
+  }
+  /*  dropdown */
+  #menu a:link, #menu a:visited
+  {
+      display: block;
+      font-family: Tahoma;
+      font-size: 0.75em;
+      font-weight: bold;
+      text-align: left;
+      text-decoration: none;
+      color: #000;
+      padding: 5px;
+  }
+  #menu li:hover
+  {
+      background-color: #ffd98a;
+      border: 1px solid #000;
+  }
+  #menu li:hover ul
+  {
+      display: block;
+  }
+
+  /* Top bar */
+
+.main-content{
+  position: relative;
+  margin-left: 275px;
+  top: 100px;
+  }
+  header{
+    width: 100%;
+    left: 275px;
+    position: fixed;
+    justify-content: space-between;
+    padding: 1rem;
+    background: url("../img/bannner.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: antiquewhite;
+    height: 100px;
+    z-index: 2;
+  }
+  
+  .container {
+    margin-top: 50px;
+  
+    background-color: #fff;
+  }
+  .pad-botm {
+    padding-bottom:30px;
+  }
+  .pad-botm span{
+    font-size: 27px;
+  }
+  .header-line {
+    font-weight:900;
+    padding-bottom:25px;
+  
+    text-transform:uppercase;
+    display: inline;
+  }
+  .header-underline {
+    width: 100%;
+    font-weight:900;
+    padding-bottom:25px;
+    border-bottom:1px solid #d6cece;
+    display: flex;
+  }
+  .timeset{
+    font-size: 15px !important;
+    float: right ;
+  }
+  .cardcontainer{
+    display: inline-flex;
+  }
+  .details{
+    display: none;
+  }
+  .examcard:hover + .details {
+    display: block;
+    color: red;
+  }
+  
+  /* Student  Dashboard   code*/
+
+  
+                       
+p, span, a, ul, li, button {
+  font-family: inherit;
+  font-size: inherit;
+font-weight: inherit;
+line-height: inherit;
+}
+
+strong {
+font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serify;
+line-height: 1.5em;
+font-weight: 300;	
+}
+
+strong {
+font-weight: 400;
+}
+
+.tile {  
+  width: 100%;
+  display: inline-block;
+box-sizing: border-box;
+background: #fff;		
+padding: 20px;
+border: 1px solid #ff000000;
+border-radius: 20px;
+/* margin-bottom: 30px; */
+} 
+
+.title {
+    margin-top: 0px;
+}
+.tile .bottom{
+  margin-left: 29%;
+    margin-top: 9%;
+}
+
+.purple, .blue, .red, .orange, .green {
+  color: #fff;
+}
+
+.purple {
+  background: #5133AB;
+ 
+}
+
+.purple:hover {
+  background: darken(#5133AB, 10%);
+}	
+
+.red { background: #AC193D;}
+
+.red:hover {
+  background: darken(#AC193D, 10%);
+}		
+
+
+.green {background: #00A600;}
+
+.green:hover {
+background: darken(#00A600, 10%);
+}		
+
+
+.blue {   
+  /* background: #2672EC; */
+  background-image: url("../img/cardback.webp");
+  background-repeat: no-repeat;
+}
+
+.blue:hover {
+background: darken(#2672EC, 10%);
+}	
+
+
+.orange {  background: #DC572E;}
+
+.orange:hover {
+background: darken(#DC572E, 10%);
+}
+                    
